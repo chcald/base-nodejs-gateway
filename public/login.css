@@ -1,0 +1,52 @@
+@font-face {
+   font-family: gotham-bold;
+   src: url(fonts/Gotham-Bold.otf);
+}
+@font-face {
+    font-family: gotham-light;
+     src: url(fonts/Gotham-Light.otf);
+}
+
+@font-face {
+    font-family: gotham-book;
+     src: url(fonts/Gotham-Book.otf);
+}
+
+body {
+    background-image: url("login-bg.png");
+    background-repeat: no-repeat;
+    color:white;
+    text-align: center;
+    font-family: gotham-book;
+}
+
+h1{
+   font-family: gotham-bold;
+   margin: 74px 0 0 0;
+}
+h2 {
+  font-family: gotham-light;
+}
+
+a {
+    text-decoration: none;
+    color:white;
+  }
+
+a:visited {color:white;}
+
+.gotham-light-small{
+  color: white;
+  font-size: 9px;
+}
+.login-box{
+  text-align: left;
+  margin-left: 40%;
+  font-family: gotham-book;
+  font-size:11px;
+}
+
+.textbox{
+  width: 258px;
+  height: 23px;
+}

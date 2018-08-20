@@ -1,0 +1,49 @@
+{
+  "name": "base-gateway",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "lint": "./node_modules/eslint/bin/eslint.js . --format table",
+    "start": "node ./bootstrap-service.js",
+    "unit-test": "./node_modules/mocha/bin/mocha ./tests/units/*.js"
+  },
+  "dependencies": {
+    "async": "2.1.4",
+    "aws-sdk": "2.29.0",
+    "bluebird": "3.4.7",
+    "body-parser": "1.15.2",
+    "compression": "1.6.2",
+    "connect-ensure-login": "0.1.1",
+    "cors": "2.8.1",
+    "dotenv": "2.0.0",
+    "email-templates": "2.5.4",
+    "eslint": "3.13.0",
+    "eslint-config-airbnb-base": "11.0.0",
+    "eslint-plugin-import": "2.2.0",
+    "express": "4.14.0",
+    "express-http-proxy": "0.10.1",
+    "express-jwt": "5.1.0",
+    "helmet": "3.3.0",
+    "jsonapi-serializer": "^3.4.2",
+    "lodash": "4.17.4",
+    "mongoose": "4.9.0",
+    "mysql": "2.12.0",
+    "node-ses": "^2.0.4",
+    "passport": "0.3.2",
+    "passport-auth0": "0.6.0",
+    "pug": "2.0.0-beta11",
+    "q": "1.4.1",
+    "request": "2.79.0",
+    "sequelize": "3.29.0",
+    "uuid": "3.0.1",
+    "winston": "2.3.0",
+    "winston-daily-rotate-file": "1.4.2"
+  },
+  "devDependencies": {
+    "chai": "3.5.0",
+    "chai-as-promised": "6.0.0",
+    "chai-http": "3.0.0",
+    "jsome": "2.3.26",
+    "mocha": "3.2.0"
+  }
+}
